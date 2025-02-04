@@ -24,12 +24,12 @@ jobs:
           echo "Password length: ${#QUAY_PASSWORD}"
         env:
           QUAY_USERNAME: ${{ secrets.QUAY_USERNAME }}
-          QUAY_PASSWORD: ${{ secrets.QUAY_PASSWORD }}
+          QUAY_PASSWORD: ${{ secrets.QUAY_IO_TOKEN }}
       
 
       - name: Login to Quay.io
         run: |
-          printf "%s" "${{ secrets.QUAY_PASSWORD }}" | docker login quay.io -u "${{ secrets.QUAY_USERNAME }}" --password-stdin
+          printf "%s" "${{ secrets.QUAY_IO_TOKEN }}" | docker login quay.io -u "${{ secrets.QUAY_USERNAME }}" --password-stdin
         
 
       - name: Get version (commit hash)
