@@ -183,24 +183,10 @@ If you want to pull an image for a specific version (e.g., commit hash), use:
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/vMaroon">
-                    <img src="https://avatars.githubusercontent.com/u/73340153?v=4" width="100;" alt="vMaroon"/>
+                <a href="https://github.com/MAVRICK-1">
+                    <img src="https://avatars.githubusercontent.com/u/146999057?v=4" width="100;" alt="MAVRICK-1"/>
                     <br />
-                    <sub><b>Maroon Ayoub</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/Shruti78">
-                    <img src="https://avatars.githubusercontent.com/u/104200088?v=4" width="100;" alt="Shruti78"/>
-                    <br />
-                    <sub><b>Shruti Murthy</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/manzil-infinity180">
-                    <img src="https://avatars.githubusercontent.com/u/119070053?v=4" width="100;" alt="manzil-infinity180"/>
-                    <br />
-                    <sub><b>Rahul Vishwakarma</b></sub>
+                    <sub><b>Rishi Mondal</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -211,14 +197,19 @@ If you want to pull an image for a specific version (e.g., commit hash), use:
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/manzil-infinity180">
+                    <img src="https://avatars.githubusercontent.com/u/119070053?v=4" width="100;" alt="manzil-infinity180"/>
+                    <br />
+                    <sub><b>Rahul Vishwakarma</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/yashpandey06">
                     <img src="https://avatars.githubusercontent.com/u/97700473?v=4" width="100;" alt="yashpandey06"/>
                     <br />
                     <sub><b>Yash Pandey</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/RealRTorres">
                     <img src="https://avatars.githubusercontent.com/u/72537940?v=4" width="100;" alt="RealRTorres"/>
@@ -233,6 +224,8 @@ If you want to pull an image for a specific version (e.g., commit hash), use:
                     <sub><b>Krish Katariya</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Gmin2">
                     <img src="https://avatars.githubusercontent.com/u/127925465?v=4" width="100;" alt="Gmin2"/>
@@ -245,6 +238,13 @@ If you want to pull an image for a specific version (e.g., commit hash), use:
                     <img src="https://avatars.githubusercontent.com/u/191938611?v=4" width="100;" alt="Jayesh0167"/>
                     <br />
                     <sub><b>Jayesh Savaliya</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/kunal-511">
+                    <img src="https://avatars.githubusercontent.com/u/118254863?v=4" width="100;" alt="kunal-511"/>
+                    <br />
+                    <sub><b>kunal Dugar</b></sub>
                 </a>
             </td>
             <td align="center">
