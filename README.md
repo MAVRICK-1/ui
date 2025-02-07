@@ -204,13 +204,6 @@ If you want to pull an image for a specific version (e.g., commit hash), use:
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/MAVRICK-1">
-                    <img src="https://avatars.githubusercontent.com/u/146999057?v=4" width="100;" alt="MAVRICK-1"/>
-                    <br />
-                    <sub><b>Rishi Mondal</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/clubanderson">
                     <img src="https://avatars.githubusercontent.com/u/407614?v=4" width="100;" alt="clubanderson"/>
                     <br />
