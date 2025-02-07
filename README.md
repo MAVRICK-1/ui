@@ -7,7 +7,7 @@ Welcome to **KubestellarUI**! This guide will help you set up the KubestellarUI 
 
 ## Prerequisites
 
-Before you begin, ensure that your system meets the following requirements:
+
 
 ### 1. Golang
 
