@@ -99,3 +99,5 @@ jobs:
       - name: ✅ Backend Server Started
         if: success()
         run: echo "Backend server started successfully ✅"
+        env:
+          VITE_BASE_URL: http://localhost:4000
