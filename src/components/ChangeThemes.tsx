@@ -10,7 +10,7 @@ const ChangeThemes = () => {
     <div className="w-full">
       <label className="swap swap-rotate">
         <input
-          onClick={toggleTheme}
+          onClick={toggleTheme}gffffffff
           type="checkbox"
           //   value="synthwave"
           className="theme-controller"

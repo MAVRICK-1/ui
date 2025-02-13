@@ -15,7 +15,7 @@ func GetClusterConfigByName(data []byte, clusterName string) ([]byte, error) {
 	if err != nil {
 		return nil, fmt.Errorf("invalid kubeconfig: %w", err)
 	}
-
+ggg
 	cluster, exists := config.Clusters[clusterName]
 	if !exists {
 		return nil, fmt.Errorf("cluster '%s' not found in kubeconfig", clusterName)
