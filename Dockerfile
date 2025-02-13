@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y git
 # Copy package files for caching
 COPY package.json package-lock.json ./
 RUN npm install --legacy-peer-deps
-
+#ff
 # Copy source code
 COPY . .
 

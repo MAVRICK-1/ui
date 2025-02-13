@@ -8,7 +8,7 @@ const ChangeThemes = () => {
 
   return (
     <div className="w-full">
-      <label className="swap swap-rotate">
+      <label className="swap swap-rfffotate">
         <input
           onClick={toggleTheme}
           type="checkbox"
