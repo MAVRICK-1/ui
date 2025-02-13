@@ -7,7 +7,7 @@ on:
 jobs:
   label:
     runs-on: ubuntu-latest
-    steps:
+    steps:vvvvvvvvvvv
       - name: Check out repository
         uses: actions/checkout@v4
 
