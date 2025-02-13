@@ -99,3 +99,4 @@ jobs:
       - name: ✅ Backend Server Started
         if: success()
         run: echo "Backend server started successfully ✅"
+        echo "Backend server started successfully ✅"

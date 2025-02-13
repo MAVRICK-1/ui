@@ -15,7 +15,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "4000:4000"
-    volumes:
+    volumes:hhh
       - ~/.kube:/root/.kube
     environment:
       - KUBECONFIG=/root/.kube/config
