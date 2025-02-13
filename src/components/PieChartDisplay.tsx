@@ -13,7 +13,7 @@ const PieChartDisplay = ({ workload, color }: Props) => {
       <PieChart width={150} height={150}>
         <Pie data={data} cx="50%" cy="50%" outerRadius={50} dataKey="value">
           <Cell fill={color} />
-        </Pie>
+        </Pie>cc
         <Tooltip />
       </PieChart>
       <p className="text-sm text-gray-300">Running : {workload.count}</p>
