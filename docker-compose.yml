@@ -7,6 +7,7 @@ services:
     depends_on:
       - backend
     network_mode: "host"
+
   backend:
     build:
       context: ./backend
@@ -19,10 +20,10 @@ services:
       - POSTGRES_HOST=localhost
       - POSTGRES_PORT=5432
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_DB=jwt_db
-      - DATABASE_URL=postgres://postgres:password@localhost:5432/jwt_db?sslmode=disable
-      - JWT_SECRET=mysecretkey
+      - DATABASE_URL=postgres://postgres:${POSTGRES_PASSWORD}@localhost:5432/jwt_db?sslmode=disable
+      - JWT_SECRET=${JWT_SECRET}
     depends_on:
       - postgres
     network_mode: "host"
@@ -33,7 +34,7 @@ services:
     restart: always
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_DB=jwt_db
     ports:
       - "5432:5432"
